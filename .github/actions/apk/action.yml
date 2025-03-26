@@ -54,3 +54,4 @@ runs:
             tzdata \
             musl-locales \
             musl-locales-lang
+  apk update -q
