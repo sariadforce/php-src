@@ -9,7 +9,7 @@ runs:
     - shell: bash
       run: |
         set -x
-
+  apk update -q
         export DEBIAN_FRONTEND=noninteractive
 
         # Install sudo in Docker for consistent actions
